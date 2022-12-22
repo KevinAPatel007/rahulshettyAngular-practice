@@ -1,0 +1,183 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4964430819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Registration using data table",
+        "description": "",
+        "id": "registration-using-data-table;registration-using-data-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105440918,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "registerationSteps.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137444156,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my first name",
+            "match": {
+              "location": "registerationSteps.firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88564467,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my email",
+            "match": {
+              "location": "registerationSteps.email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76723299,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my password",
+            "match": {
+              "location": "registerationSteps.password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91792018,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on submit btn",
+            "match": {
+              "location": "registerationSteps.i_click_on_submit_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 909088888,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on shop btn",
+            "match": {
+              "location": "shoppingCartSteps.i_click_on_shop_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162902258,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add to cart btn",
+            "match": {
+              "location": "shoppingCartSteps.i_click_on_addtocart_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108970415,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on checkout",
+            "match": {
+              "location": "shoppingCartSteps.i_click_on_checkout_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86381768,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will validate and confirm my order",
+            "match": {
+              "location": "shoppingCartSteps.i_will_validate_and_confirm_my_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5131757035,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will select my delivery address",
+            "match": {
+              "location": "shoppingCartSteps.i_will_select_my_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39088235,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I will tick the terms and conditions",
+            "match": {
+              "location": "shoppingCartSteps.i_will_tick_the_terms_and_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45574855,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will click on Purchase Button",
+            "match": {
+              "location": "shoppingCartSteps.i_will_click_on_Purchase_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registration using Data table",
+    "description": "",
+    "id": "registration-using-data-table",
+    "keyword": "Feature",
+    "uri": "rahulShettyAngular.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@registeration"
+      }
+    ]
+  }
+]
